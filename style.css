@@ -1,0 +1,184 @@
+h3 {
+    background-color: white;
+    border-radius: 8px;
+    font-weight:600;
+    font-size: 60px;
+    height: 70px;
+    letter-spacing: 5px;
+    width: 1300px;
+    height: 70px;
+    padding: 8px;
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: initial;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+@keyframes head {
+    from {
+        width: 500;
+        font-size: 45px;
+    }
+
+    to {
+        width: 1300;
+        font-size: 60px;
+    }
+
+}
+
+#img {
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img {
+    from {
+        box-shadow: 1px 1px 50px white;
+    }
+
+    to {
+        box-shadow: 1px 1px 50px white;
+    }
+
+}
+
+#image {
+    border-radius: 10px;
+
+}
+
+
+
+#google {
+    background-color: lightblue;
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: google;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-family: 'Delicious Handrawn', cursive;
+    
+}
+
+@keyframes google {
+    from {
+        box-shadow: 5px 5px 70px lightblue;
+    }
+
+    to {
+        box-shadow: 5px 5px 70px dodgerblue;
+    }
+
+}
+
+#mobile {
+    background-color: darksalmon;
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: mobile;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+@keyframes mobile {
+    from {
+        box-shadow: 5px 5px 70px rgb(246, 162, 152);
+    }
+
+    to {
+        box-shadow: 5px 5px 70px darksalmon;
+    }
+
+}
+
+
+#boxes {
+    margin-left: 160px;
+}
+
+div{
+    height: 330px;
+}
+
+#hr1{
+    height: 2px;
+    background-color: white;
+    width: 900px;
+}
+
+#vs{
+    background-color: white;  
+    width: 1250px;
+    height: fit-content; 
+    padding: 30px;
+    border-radius: 10px;
+    animation-name: vs;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vs {
+    from {
+        box-shadow: 5px 5px 70px lightgreen;
+    }
+
+    to {
+        box-shadow: 5px 5px 70px lightblue;
+    }
+
+}
+
+#vs1{
+    width: 400px;
+    margin-right: 500px;
+}
+
+#vs2{
+    width: 200px;
+}
+
+#net{
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 500px;
+    font-size: 45px;
+}
+
+#final{
+    background-color: khaki;
+    font-size: 22px;
+    font-family: monospace;
+    width: 1260px;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h5{
+    font-size: 60px;
+}
+
+.footer{
+    background-color:rgb(215, 212, 212) ;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-size: 22px;
+    font-family: monospace;
+    height: fit-content;
+  }
